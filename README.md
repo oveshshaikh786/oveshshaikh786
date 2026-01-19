@@ -172,6 +172,4 @@ I'm open to **full-time opportunities**, **freelance projects**, and **interesti
 
 *"Write clean code, test thoroughly, deploy confidently."*
 
-![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Foveshshaikh786&label=Views&countColor=%236366f1&style=flat-square)
-
 </div>
