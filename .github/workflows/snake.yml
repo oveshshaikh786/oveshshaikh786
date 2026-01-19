@@ -25,8 +25,9 @@ jobs:
         with:
           github_user_name: oveshshaikh786
           outputs: |
-            ![Snake animation](https://raw.githubusercontent.com/oveshshaikh786/oveshshaikh786/output/github-snake-dark.svg)
-
+              dist/github-snake.svg
+              dist/oveshshaikh786/oveshshaikh786/blob/output/github-contribution-grid-snake.svg
+           
       - name: Push to output branch
         uses: crazy-max/ghaction-github-pages@v4
         with:
