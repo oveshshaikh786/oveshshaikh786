@@ -16,7 +16,10 @@
 
 <img align="right" alt="Coding" width="400" src="https://raw.githubusercontent.com/devSouvik/devSouvik/master/gif3.gif">
 
-## 👋 Hey, I'm Ovesh
+# Ovesh Shaikh
+### Software Engineer | Java | Python | React | Backend Systems
+
+Hi, I'm Ovesh Shaikh, a Software Engineer based in California building scalable backend systems and production-grade applications.
 
 I build **production-ready applications** that actually ship. From wrestling with my first `NullPointerException` at 2 AM to architecting systems handling **10K+ daily transactions**—I write code that scales.
 
