@@ -6,7 +6,7 @@ Backend systems & full-stack development · Java · Spring Boot · React · Dock
 
 ---
 
-Backend engineer with experience building production-grade systems in Java/Spring Boot and full-stack applications with React and Next.js. Currently at PDDN Inc, focused on scalable backend architecture, REST APIs, and containerized deployments. Looking for my next full-time engineering role.
+Backend software engineer with experience building production-grade systems in Java/Spring Boot and full-stack applications with React and Next.js. Currently at PDDN Inc, focused on scalable backend architecture, REST APIs, and containerized deployments. Looking for my next full-time engineering role.
 
 ---
 
