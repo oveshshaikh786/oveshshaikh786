@@ -2,7 +2,7 @@
 
 Backend systems & full-stack development · Java · Spring Boot · React · Docker
 
-📍 Milpitas, CA  ·  📧 oveshshaikh814@gmail.com  ·  [LinkedIn](https://www.linkedin.com/in/oveshshaikh786/)  ·  [Portfolio](https://portfolio-ovesh.vercel.app/)  ·  🟢 Open to opportunities
+📍 Milpitas, CA  ·  📧 oveshshaikh814@gmail.com  ·  [LinkedIn](https://www.linkedin.com/in/oveshshaikh786/)  ·  [Portfolio](https://portfolio-ovesh-git-vercel-reac-162eb7-oveshshaikh786s-projects.vercel.app/)  ·  🟢 Open to opportunities
 
 ---
 
