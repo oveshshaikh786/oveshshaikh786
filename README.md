@@ -2,11 +2,11 @@
 
 Backend systems & full-stack development · Java · Spring Boot · React · Docker
 
-📍 Milpitas, CA  ·  📧 oveshshaikh814@gmail.com  ·  [LinkedIn](https://www.linkedin.com/in/oveshshaikh786/)  ·  [Portfolio](https://portfolio-ovesh.vercel.app/)  ·  🟢 Open to opportunities
+📍 Milpitas, CA ·  📧 oveshshaikh814@gmail.com  ·  [LinkedIn](https://www.linkedin.com/in/oveshshaikh786/)  ·  [Portfolio](https://portfolio-ovesh.vercel.app/)  ·  🟢 Open to opportunities  · Open to Relocate
 
 ---
 
-Backend software engineer with experience building production-grade systems in Java/Spring Boot and full-stack applications with React and Next.js. Currently at PDDN Inc, focused on scalable backend architecture, REST APIs, and containerized deployments. Looking for my next full-time engineering role.
+Backend software engineer with experience building production-grade systems in Java/Spring Boot and full-stack applications with React and Next.js. Currently at PDDN Inc (Hybrid), focused on scalable backend architecture, REST APIs, and containerized deployments. Looking for my next full-time engineering role.
 
 ---
 
@@ -20,16 +20,15 @@ Backend software engineer with experience building production-grade systems in J
 
 | Project | Stack | Highlights |
 |---|---|---|
-| [Train Ticket Booking System](https://github.com/oveshshaikh786/Train-ticket-booking) | Java · Spring Boot · Docker · MySQL | REST API, JWT auth, Dockerized, load-tested to 10K req/day |
 | [Twitter Clone](https://github.com/oveshshaikh786/Twitter-Clone-Next.js-app) | Next.js · React · WebSockets · MongoDB | Real-time feed, optimistic UI, 50+ concurrent users tested |
-| [Contoso Data Warehouse](https://github.com/oveshshaikh786/contoso-data-analysis-dw) | SQL Server · OLAP · MDX · Power BI | 1M+ records, 20+ business reports, star schema |
-| [University Course System](https://github.com/oveshshaikh786/university-course-management-java) | Java · OOP · JUnit · Maven | SOLID principles, Factory/Observer/Singleton patterns |
+| [Train Ticket Booking System](https://github.com/oveshshaikh786/Train-ticket-booking) | Java · Spring Boot · Docker · MySQL | REST API, JWT auth, Dockerized |
 
 ---
 
 **Currently building**
-- E-commerce platform (MERN + Stripe)
-- Deepening system design: microservices, Kafka, Kubernetes
+- Job Application Tracker with AI intergration (Kanban Board + SLA tracking + analytics + Prisma/Postgre)
+- Building API design's in Web Application like timeSheet for Companies & Employees
+- Deepening system design: microservices, Docker, API Design, Scrum-Master, and Cloud Tech's
 - Active on LeetCode
 
 ---
