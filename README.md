@@ -31,9 +31,9 @@ Backend software engineer at PDDN Inc (Fremont, CA · Hybrid), building SaaS pro
 
 | Project | Stack | Highlights |
 |---------|-------|------------|
-| [Twitter Clone](https://github.com/oveshshaikh786/Twitter-Clone-Next.js-app) | Next.js · React · WebSockets · MongoDB | Real-time feed, optimistic UI, JWT auth |
-| [Train Ticket Booking](https://github.com/oveshshaikh786/Train-ticket-booking) | Java · Spring Boot · Docker · MySQL | REST API backend, JWT auth, Dockerized deployment |
 | [Job Application Tracker](https://github.com/oveshshaikh786/job-application-tracker) | TypeScript · Prisma · PostgreSQL | Kanban board, SLA tracking, AI integration |
+| [Train Ticket Booking](https://github.com/oveshshaikh786/Train-ticket-booking) | Java · Spring Boot · Docker · MySQL | REST API backend, JWT auth, Dockerized deployment |
+| [Twitter Clone](https://github.com/oveshshaikh786/Twitter-Clone-Next.js-app) | Next.js · React · WebSockets · MongoDB | Real-time feed, optimistic UI, JWT auth |
 | [University Course Management](https://github.com/oveshshaikh786/university-course-management-java) | Java · 5-Layer Architecture | Factory, Observer & Singleton design patterns |
 
 ---
