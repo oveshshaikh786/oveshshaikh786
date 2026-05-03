@@ -63,40 +63,37 @@ Most of my work revolves around designing structured APIs, maintaining clear bac
 ## 🚀 Featured Projects
 
 ### ⭐ Job Application Tracker (SaaS)
-Backend system designed to model real-world job tracking workflows using an event-driven architecture.
+Backend system with multi-tenant architecture and event-driven workflow.
 
-- Implemented multi-tenant data modeling (workspace-based design)
-- Built event-based lifecycle tracking (stage transitions, notes, follow-ups)
-- Designed API-first backend with structured request/response handling
-- Managed real-time state synchronization across the application
-
-👉 Focus: System design, backend architecture, real-world data flow
+- API-first backend design  
+- Event-based lifecycle tracking  
+- PostgreSQL data modeling  
 
 ---
 
 ### 🚆 Train Ticket Booking System
-Backend-focused booking system designed to model request flow and service-layer responsibilities.
+Backend-focused booking system demonstrating layered architecture.
 
-- Implemented layered architecture (Controller → Service → Repository)
-- Designed booking workflows and database interactions
-- Structured backend logic for clarity and maintainability
+- Controller → Service → Repository design  
+- Booking workflow simulation  
+- Structured backend logic  
 
 ---
 
-### 🐦 Twitter Clone (Full-Stack Learning Project)
-Application built to explore real-time data flow and backend-driven interactions.
+### 🐦 Twitter Clone
+Full-stack project focused on backend APIs and real-time behavior.
 
-- Implemented authentication (JWT / OAuth)
-- Integrated WebSockets for real-time updates
-- Focused on API design and consistency between client and server
+- JWT / OAuth authentication  
+- WebSocket-based updates  
+- API design and data consistency  
 
 ---
 
 ### 🎓 University Course Management
-Java-based project focused on applying clean architecture and object-oriented design.
+Java project demonstrating clean architecture and OOP design.
 
-- Implemented layered architecture and core design patterns
-- Structured system for maintainability and separation of concerns
+- Layered system design  
+- Maintainable and structured code
 
 ---
 
