@@ -1,118 +1,125 @@
 <div align="center">
 
-![Header](https://capsule-render.vercel.app/api?type=rect&color=0,10,20&height=130&text=Ovesh%20Shaikh&fontSize=54&fontColor=E6EDF3&fontAlign=50&fontAlignY=48&desc=Backend%20Engineer%20%E2%80%94%20Java%20%C2%B7%20Spring%20Boot%20%C2%B7%20REST%20APIs%20%C2%B7%20PostgreSQL&descSize=15&descAlign=50&descAlignY=72&descColor=8B949E)
+![Header](https://capsule-render.vercel.app/api?type=rect&color=0,10,20&height=130&text=Ovesh%20Shaikh&fontSize=54&fontColor=E6EDF3&fontAlign=50&fontAlignY=48&desc=Backend%20Software%20Engineer%20%E2%80%A2%20Java%20%E2%80%A2%20Spring%20Boot%20%E2%80%A2%20REST%20APIs&descSize=15&descAlign=50&descAlignY=72&descColor=8B949E)
 
 <br/>
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/oveshshaikh786/)
-[![Portfolio](https://img.shields.io/badge/Portfolio-161B22?style=flat-square&logo=googlechrome&logoColor=58A6FF)](https://portfolio-ovesh.vercel.app/)
-[![Email](https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:oveshshaikh814@gmail.com)
-[![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=flat-square&logo=leetcode&logoColor=black)](https://leetcode.com/u/ovesh786)
+[![GitHub](https://img.shields.io/badge/GitHub-161B22?style=flat-square&logo=github&logoColor=white)](https://github.com/oveshshaikh786)
 ![Views](https://komarev.com/ghpvc/?username=oveshshaikh786&color=58A6FF&style=flat-square&label=Profile+Views)
 
 </div>
 
 ---
 
-## About Me
+## 👋 About Me
 
-Backend engineer at **PDDN Inc** (Fremont, CA), actively looking for my next full-time role.
+Backend Software Engineer with ~1 year of experience building REST APIs and backend systems using Java and Spring Boot.
 
-I work primarily in Java and Spring Boot — designing REST APIs, working through DB schema decisions, debugging broken request flows, and figuring out what Docker ate for lunch. I'm drawn to the backend problems that don't have clean answers: slow queries with no obvious cause, services that couple when they shouldn't, systems that work until they don't.
+I focus on understanding how systems actually work — from request flow to database behavior — and I'm comfortable debugging real issues across services, logs, and environments.
 
-I build projects to understand things, not to list them. My LeetCode repo exists because I solve problems daily, not because I needed something to pin. I'm working through system design fundamentals seriously right now — concurrency, distributed state, the tradeoffs that actually come up in interviews.
-
-**Looking for:** Full-time backend or full-stack engineering roles — remote or Bay Area.
+Most of my work revolves around designing clean APIs, structuring backend layers properly, and solving problems that show up when systems move beyond "just working locally".
 
 ---
 
-## Tech Stack
+## 🧠 How I Think About Backend Systems
 
-**Core**
-
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
-![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-
-**Frontend**
-
-![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
-
-**Data & Infrastructure**
-
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-005C84?style=flat-square&logo=mysql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=flat-square&logo=mongodb&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-FF9900?style=flat-square&logo=amazonaws&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
-
-`Prisma ORM` `Gradle` `Maven` `JUnit` `Postman` `SQL Server` `MDX` `Power BI`
+- I trace requests end-to-end (Controller → Service → Repository → Database)
+- I focus on debugging and system behavior, not just writing code
+- I design APIs with validation, structure, and maintainability in mind
+- I care about how systems behave in real environments (Docker, DB configs)
 
 ---
 
-## Featured Projects
+## ⚙️ Tech Stack
 
-### 🗂️ [Job Application Tracker](https://github.com/oveshshaikh786/job-application-tracker)
+### 🧩 Backend & Languages
 
-A multi-tenant SaaS tool for tracking job applications — Kanban board, SLA alerts, analytics dashboard. TypeScript + Next.js frontend, PostgreSQL + Prisma on the backend. This is the most complete thing I've built: real auth, real data model, real UI state management. Built it because I needed it, then kept going.
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/SpringBoot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
+![REST API](https://img.shields.io/badge/REST-API-blue?style=for-the-badge)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
-**What's interesting architecturally:** multi-tenancy with Prisma, event-driven application lifecycle (status changes trigger SLA countdown), Zustand for client state, API-first backend design.
+### 🗄️ Databases
 
-`TypeScript` `Next.js` `PostgreSQL` `Prisma` `Zustand` `SaaS`
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-00758F?style=for-the-badge&logo=mysql&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
 
----
+### 🛠️ Tools
 
-### 🚆 [Train Ticket Booking System](https://github.com/oveshshaikh786/Train-ticket-booking)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
 
-Full-stack booking platform — Spring Boot backend, React frontend, Dockerized. Built to understand how a real layered service is structured: Controller → Service → Repository, JWT auth, proper relational schema. The containerization piece taught me more about environment parity than any tutorial.
+### 🎯 Frontend
 
-`Java` `Spring Boot` `React` `Docker` `JWT` `MySQL` `Gradle`
-
----
-
-### 🐦 [Twitter Clone](https://github.com/oveshshaikh786/Twitter-Clone-Next.js-app)
-
-Real-time social platform with Next.js and MongoDB. The interesting part was handling WebSocket feeds alongside optimistic UI — keeping what the user sees consistent with what's actually committed to the DB under concurrent updates.
-
-`Next.js` `React` `WebSockets` `MongoDB` `JWT`
-
----
-
-### 🎓 [University Course Management](https://github.com/oveshshaikh786/university-course-management-java)
-
-Built this purely to understand how large Java codebases are structured — 5-layer clean architecture, Factory, Observer, and Singleton patterns, proper abstraction and interfaces. If you want to see how I think about OOP design, this is the clearest example.
-
-`Java` `OOP` `Design Patterns` `Clean Architecture` `JUnit` `Maven`
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
 
 ---
 
-### 📊 [Contoso Data Warehouse](https://github.com/oveshshaikh786/contoso-data-analysis-dw)
+## 🚀 Featured Projects
 
-BI project on the Contoso retail dataset. Star schema, OLAP cube, MDX queries, 20+ business reports over 1M+ records. Sits outside my main backend focus but taught me how data moves from raw transactions to decisions — which matters when you're building the APIs that feed those pipelines.
+### ⭐ Job Application Tracker (SaaS)
 
-`SQL Server` `Star Schema` `OLAP` `MDX` `Power BI`
+Backend-driven job tracking system with multi-tenant architecture and event-based lifecycle tracking.
 
----
-
-### 🧩 [LeetCode DSA Practice](https://github.com/oveshshaikh786/leetcode-dsa-practice-problems)
-
-Daily Java solutions — arrays, trees, graphs, dynamic programming, sliding window. Not a showcase repo. Just the work.
-
-`Java` `DSA` `Algorithms` `Data Structures`
+- Designed API-first backend with clear separation of concerns
+- Implemented event logging for application stage transitions
+- Built scalable data model using PostgreSQL
 
 ---
 
-## GitHub Stats
+### ⭐ Train Ticket Booking System
+
+Backend-focused booking system built to understand request flow and service-layer design.
+
+- Implemented layered architecture (Controller → Service → Repository)
+- Simulated booking flow and database interaction
+- Focused on backend structure rather than UI
+
+---
+
+### ⭐ Twitter Clone (Full-Stack Learning Project)
+
+Built to understand real-time systems and backend event handling.
+
+- Implemented authentication (JWT / OAuth)
+- Worked with WebSockets for real-time updates
+- Focused on API design and data consistency
+
+---
+
+### ⭐ University Course Management
+
+Java project focused on clean architecture and OOP fundamentals.
+
+- Implemented layered design and core design patterns
+- Structured code for maintainability and clarity
+
+---
+
+## 🧠 Real Backend Experience
+
+In my current role, I've worked on backend systems involving:
+
+- REST API development and debugging
+- Tracing request flow across services
+- Handling database and environment issues (Docker, configs)
+- Improving API reliability and structure
+
+*Note: Code is private, but concepts are reflected in my projects.*
+
+---
+
+## 📊 GitHub Stats
 
 <div align="center">
 
-![Ovesh's Stats](https://github-readme-stats.vercel.app/api?username=oveshshaikh786&show_icons=true&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF&text_color=8B949E&count_private=true&cache_seconds=86400)
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=oveshshaikh786&show_icons=true&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF&text_color=8B949E&count_private=true&cache_seconds=86400)
 &nbsp;&nbsp;
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=oveshshaikh786&layout=compact&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=8B949E&cache_seconds=86400)
 
@@ -124,18 +131,14 @@ Daily Java solutions — arrays, trees, graphs, dynamic programming, sliding win
 
 ---
 
-## Let's Talk
-
-I'm actively looking for full-time backend or full-stack engineering roles. If you're building something in Java, Spring Boot, TypeScript, or anything data-heavy — and need someone who understands how the backend holds everything together — reach out.
+## 📫 Let's Connect
 
 <div align="center">
 
-[![Connect on LinkedIn](https://img.shields.io/badge/Connect_on_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/oveshshaikh786/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/oveshshaikh786/)
 &nbsp;
-[![Send an Email](https://img.shields.io/badge/Send_an_Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:oveshshaikh814@gmail.com)
-&nbsp;
-[![View Portfolio](https://img.shields.io/badge/View_Portfolio-161B22?style=for-the-badge&logo=googlechrome&logoColor=58A6FF)](https://portfolio-ovesh.vercel.app/)
+[![GitHub](https://img.shields.io/badge/GitHub-161B22?style=for-the-badge&logo=github&logoColor=white)](https://github.com/oveshshaikh786)
 
-**Status:** Actively interviewing &nbsp;·&nbsp; **Location:** Fremont, CA &nbsp;·&nbsp; **Timezone:** PST &nbsp;·&nbsp; **Open to:** Remote or Bay Area
+**Actively looking for backend engineering roles.**
 
 </div>
