@@ -63,42 +63,70 @@ Most of my work revolves around designing clean APIs, structuring backend layers
 
 ## 🚀 Featured Projects
 
-### ⭐ Job Application Tracker (SaaS)
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🗂️ Job Application Tracker (SaaS)</h3>
+      <p>Backend-driven job tracking system with multi-tenant architecture and event-based lifecycle tracking.</p>
+      <table>
+        <tr><td>✅</td><td>Designed API-first backend with clear separation of concerns</td></tr>
+        <tr><td>✅</td><td>Implemented event logging for application stage transitions</td></tr>
+        <tr><td>✅</td><td>Built scalable data model using PostgreSQL</td></tr>
+      </table>
+      <br/>
+      <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white"/>
+      <img src="https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white"/>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🚆 Train Ticket Booking System</h3>
+      <p>Backend-focused booking system built to understand request flow and service-layer design.</p>
+      <table>
+        <tr><td>✅</td><td>Implemented layered architecture (Controller → Service → Repository)</td></tr>
+        <tr><td>✅</td><td>Simulated booking flow and database interaction</td></tr>
+        <tr><td>✅</td><td>Focused on backend structure rather than UI</td></tr>
+      </table>
+      <br/>
+      <img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white"/>
+      <img src="https://img.shields.io/badge/MySQL-005C84?style=flat-square&logo=mysql&logoColor=white"/>
+    </td>
+  </tr>
 
-Backend-driven job tracking system with multi-tenant architecture and event-based lifecycle tracking.
+  <tr><td colspan="2"><br/></td></tr>
 
-- Designed API-first backend with clear separation of concerns
-- Implemented event logging for application stage transitions
-- Built scalable data model using PostgreSQL
-
----
-
-### ⭐ Train Ticket Booking System
-
-Backend-focused booking system built to understand request flow and service-layer design.
-
-- Implemented layered architecture (Controller → Service → Repository)
-- Simulated booking flow and database interaction
-- Focused on backend structure rather than UI
-
----
-
-### ⭐ Twitter Clone (Full-Stack Learning Project)
-
-Built to understand real-time systems and backend event handling.
-
-- Implemented authentication (JWT / OAuth)
-- Worked with WebSockets for real-time updates
-- Focused on API design and data consistency
-
----
-
-### ⭐ University Course Management
-
-Java project focused on clean architecture and OOP fundamentals.
-
-- Implemented layered design and core design patterns
-- Structured code for maintainability and clarity
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🐦 Twitter Clone (Full-Stack Learning Project)</h3>
+      <p>Built to understand real-time systems and backend event handling.</p>
+      <table>
+        <tr><td>✅</td><td>Implemented authentication (JWT / OAuth)</td></tr>
+        <tr><td>✅</td><td>Worked with WebSockets for real-time updates</td></tr>
+        <tr><td>✅</td><td>Focused on API design and data consistency</td></tr>
+      </table>
+      <br/>
+      <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white"/>
+      <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB"/>
+      <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=flat-square&logo=mongodb&logoColor=white"/>
+      <img src="https://img.shields.io/badge/JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white"/>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🎓 University Course Management</h3>
+      <p>Java project focused on clean architecture and OOP fundamentals.</p>
+      <table>
+        <tr><td>✅</td><td>Implemented layered design and core design patterns</td></tr>
+        <tr><td>✅</td><td>Structured code for maintainability and clarity</td></tr>
+      </table>
+      <br/><br/>
+      <img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white"/>
+      <img src="https://img.shields.io/badge/OOP-Design-6DB33F?style=flat-square"/>
+      <img src="https://img.shields.io/badge/JUnit-25A162?style=flat-square&logo=junit5&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Maven-C71A36?style=flat-square&logo=apachemaven&logoColor=white"/>
+    </td>
+  </tr>
+</table>
 
 ---
 
