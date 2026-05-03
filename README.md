@@ -16,18 +16,18 @@
 
 Backend Software Engineer with ~1 year of experience building REST APIs and backend systems using Java and Spring Boot.
 
-I focus on understanding how systems actually work — from request flow to database behavior — and I'm comfortable debugging real issues across services, logs, and environments.
+I focus on understanding how systems behave end-to-end — from request flow to database interaction — and I’m comfortable debugging issues across services, logs, and environments.
 
-Most of my work revolves around designing clean APIs, structuring backend layers properly, and solving problems that show up when systems move beyond "just working locally".
+Most of my work revolves around designing structured APIs, maintaining clear backend architecture, and solving problems that arise when systems move beyond local development.
 
 ---
 
 ## 🧠 How I Think About Backend Systems
 
 - I trace requests end-to-end (Controller → Service → Repository → Database)
-- I focus on debugging and system behavior, not just writing code
-- I design APIs with validation, structure, and maintainability in mind
-- I care about how systems behave in real environments (Docker, DB configs)
+- I prioritize debugging and system behavior over just writing code
+- I design APIs with validation, structure, and long-term maintainability
+- I focus on how systems behave in real environments (Docker, DB configs)
 
 ---
 
@@ -60,84 +60,54 @@ Most of my work revolves around designing clean APIs, structuring backend layers
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
 
 ---
-
 ## 🚀 Featured Projects
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>🗂️ Job Application Tracker (SaaS)</h3>
-      <p>Backend-driven job tracking system with multi-tenant architecture and event-based lifecycle tracking.</p>
-      <table>
-        <tr><td>✅</td><td>Designed API-first backend with clear separation of concerns</td></tr>
-        <tr><td>✅</td><td>Implemented event logging for application stage transitions</td></tr>
-        <tr><td>✅</td><td>Built scalable data model using PostgreSQL</td></tr>
-      </table>
-      <br/>
-      <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white"/>
-      <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white"/>
-      <img src="https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white"/>
-      <img src="https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white"/>
-    </td>
-    <td width="50%" valign="top">
-      <h3>🚆 Train Ticket Booking System</h3>
-      <p>Backend-focused booking system built to understand request flow and service-layer design.</p>
-      <table>
-        <tr><td>✅</td><td>Implemented layered architecture (Controller → Service → Repository)</td></tr>
-        <tr><td>✅</td><td>Simulated booking flow and database interaction</td></tr>
-        <tr><td>✅</td><td>Focused on backend structure rather than UI</td></tr>
-      </table>
-      <br/>
-      <img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white"/>
-      <img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white"/>
-      <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white"/>
-      <img src="https://img.shields.io/badge/MySQL-005C84?style=flat-square&logo=mysql&logoColor=white"/>
-    </td>
-  </tr>
+### ⭐ Job Application Tracker (SaaS)
+Backend system designed to model real-world job tracking workflows using an event-driven architecture.
 
-  <tr><td colspan="2"><br/></td></tr>
+- Implemented multi-tenant data modeling (workspace-based design)
+- Built event-based lifecycle tracking (stage transitions, notes, follow-ups)
+- Designed API-first backend with structured request/response handling
+- Managed real-time state synchronization across the application
 
-  <tr>
-    <td width="50%" valign="top">
-      <h3>🐦 Twitter Clone (Full-Stack Learning Project)</h3>
-      <p>Built to understand real-time systems and backend event handling.</p>
-      <table>
-        <tr><td>✅</td><td>Implemented authentication (JWT / OAuth)</td></tr>
-        <tr><td>✅</td><td>Worked with WebSockets for real-time updates</td></tr>
-        <tr><td>✅</td><td>Focused on API design and data consistency</td></tr>
-      </table>
-      <br/>
-      <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white"/>
-      <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB"/>
-      <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=flat-square&logo=mongodb&logoColor=white"/>
-      <img src="https://img.shields.io/badge/JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white"/>
-    </td>
-    <td width="50%" valign="top">
-      <h3>🎓 University Course Management</h3>
-      <p>Java project focused on clean architecture and OOP fundamentals.</p>
-      <table>
-        <tr><td>✅</td><td>Implemented layered design and core design patterns</td></tr>
-        <tr><td>✅</td><td>Structured code for maintainability and clarity</td></tr>
-      </table>
-      <br/><br/>
-      <img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white"/>
-      <img src="https://img.shields.io/badge/OOP-Design-6DB33F?style=flat-square"/>
-      <img src="https://img.shields.io/badge/JUnit-25A162?style=flat-square&logo=junit5&logoColor=white"/>
-      <img src="https://img.shields.io/badge/Maven-C71A36?style=flat-square&logo=apachemaven&logoColor=white"/>
-    </td>
-  </tr>
-</table>
+👉 Focus: System design, backend architecture, real-world data flow
+
+---
+
+### 🚆 Train Ticket Booking System
+Backend-focused booking system designed to model request flow and service-layer responsibilities.
+
+- Implemented layered architecture (Controller → Service → Repository)
+- Designed booking workflows and database interactions
+- Structured backend logic for clarity and maintainability
+
+---
+
+### 🐦 Twitter Clone (Full-Stack Learning Project)
+Application built to explore real-time data flow and backend-driven interactions.
+
+- Implemented authentication (JWT / OAuth)
+- Integrated WebSockets for real-time updates
+- Focused on API design and consistency between client and server
+
+---
+
+### 🎓 University Course Management
+Java-based project focused on applying clean architecture and object-oriented design.
+
+- Implemented layered architecture and core design patterns
+- Structured system for maintainability and separation of concerns
 
 ---
 
 ## 🧠 Real Backend Experience
 
-In my current role, I've worked on backend systems involving:
+In my current role, I’ve worked on backend systems involving:
 
-- REST API development and debugging
-- Tracing request flow across services
-- Handling database and environment issues (Docker, configs)
-- Improving API reliability and structure
+- REST API development, debugging, and reliability improvements  
+- Tracing request flow across application layers  
+- Handling database connectivity and environment issues (Docker-based setups)  
+- Diagnosing and resolving real-world backend failures  
 
 *Note: Code is private, but concepts are reflected in my projects.*
 
