@@ -60,7 +60,7 @@ Most of my work revolves around designing structured APIs, maintaining clear bac
 
 ## 🚀 Featured Projects
 
-### ⭐ [Full-Stack OAuth2 Cloud Application](https://github.com/oveshshaikh786/fullstack-oauth2-app) *(In Progress)*
+### ⭐ [Full-Stack OAuth2 Cloud Application](https://github.com/oveshshaikh786/fullstack-oauth2-app)
 
 A production-grade full-stack application with secure OAuth2 authentication, containerized deployment, and cloud infrastructure on AWS.
 
