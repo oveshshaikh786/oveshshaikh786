@@ -98,7 +98,7 @@ Java OOP project modelling a zoo with Tiger, Dolphin, and Penguin — with a Swi
 
 ---
 
-### 🎓 [University Course Management](https://github.com/oveshshaikh786)
+### 🎓 [University Course Management](https://github.com/oveshshaikh786/university-course-management-java)
 
 Java project demonstrating clean architecture and GoF design patterns across a multi-package codebase.
 
