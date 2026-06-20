@@ -74,8 +74,7 @@ A production-grade full-stack application with secure OAuth2 authentication, con
 
 ---
 
-### 🚆 Train Ticket Booking System
-
+### 🚆 [TrackNova - Train Ticket Booking System](https://github.com/oveshshaikh786/trackNova)
 Backend-focused booking system demonstrating layered architecture.
 
 - Controller → Service → Repository design
