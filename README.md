@@ -82,15 +82,15 @@ Backend system modelling a real-world ticket booking flow with strict layered ar
 
 `Java` `Spring Boot` `REST API` `Layered Architecture`
 
-- Implemented a clean Controller → Service → Repository layer separation with clear responsibility boundaries at each tier
+- Implemented a clean Controller → Service → Repository separation with clear responsibility boundaries at each tier
 - Designed a booking workflow covering seat availability, reservation state transitions, and ticket confirmation logic
-- Structured the codebase for extensibility — adding new routes or seat classes requires no changes to existing layers
+- Structured for extensibility — adding new routes or seat classes requires no changes to existing layers
 
 ---
 
 ### 🐯 [Zoo Management System](https://github.com/oveshshaikh786/zoo-management-system-java)
 
-Java OOP project modelling a zoo with a Swing desktop UI and a live web version — built to demonstrate interface design, inheritance, and serialization in practice.
+Java OOP project modelling a zoo with a Swing desktop UI and a live web version — demonstrating interface design, inheritance, and serialization in practice.
 
 `Java` `Swing` `OOP` `Interfaces` `Serialization` `HTML/CSS/JS` `GitHub Pages`
 
@@ -110,7 +110,7 @@ Java project demonstrating clean architecture and GoF design patterns applied to
 `Java` `Clean Architecture` `Factory Pattern` `Observer Pattern` `Singleton Pattern`
 
 - Architected a 5-layer system (Presentation → Business Logic → Service → Repository → Data) with strict separation of concerns — each layer communicates only with its immediate neighbor
-- Applied three GoF patterns with clear justification: Factory for decoupling object creation from business logic, Observer for event-driven enrollment notifications, Singleton for consistent shared service lifecycle management
+- Applied three GoF patterns with clear justification: Factory for decoupling object creation, Observer for event-driven enrollment notifications, Singleton for consistent shared service lifecycle management
 
 ---
 
