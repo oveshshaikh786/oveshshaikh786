@@ -14,22 +14,8 @@
 
 ## 👋 About Me
 
-Backend Software Engineer with ~1 year of experience building REST APIs with Java and Spring Boot.
-
-I care about more than just making things work — I care about *why* they work, and *why* they break. My focus is on understanding request flow end-to-end, designing APIs that hold up beyond the happy path, and debugging issues across layers: application logic, database behavior, and infrastructure configuration.
-
-I'm equally comfortable reading logs on a production EC2 instance as I am reviewing a Spring Security filter chain or a Flyway migration script.
-
----
-
-## 🧠 How I Think About Backend Systems
-
-> *Code is the easy part. Understanding the system is the hard part.*
-
-- **Trace first, fix second** — I follow requests from Controller → Service → Repository → DB before touching a line of code
-- **Validation is a contract** — APIs should reject bad input at the boundary, not propagate it downstream
-- **Real environments expose real bugs** — I test against Docker-composed services, not just local mocks
-- **Maintainability > cleverness** — clear layering and explicit error handling age better than terse code
+Backend engineer focused on Java & Spring Boot — ~1 year building REST APIs, securing them with OAuth2/JWT, and shipping to AWS via Docker.  
+I care about how systems behave end-to-end, not just whether the happy path works.
 
 ---
 
@@ -62,68 +48,32 @@ I'm equally comfortable reading logs on a production EC2 instance as I am review
 
 ## 🚀 Featured Projects
 
-### ⭐ [QuizzApp — Full-Stack OAuth2 Cloud Application](https://github.com/oveshshaikh786/fullstack-oauth2-app)
-
-A production-ready full-stack application with secure social login, containerized services, and live AWS deployment — built to reflect how real backend systems are designed and operated.
-
-`Spring Boot 3` `React 18` `Spring Security` `PostgreSQL` `Docker` `AWS EC2` `GitHub Actions` `JWT` `Flyway`
-
-- Designed a Spring Boot 3 REST API with OpenAPI/Swagger documentation, securing all routes via Spring Security with role-based access (`USER` / `ADMIN`)
-- Implemented OAuth2 social login (Google & GitHub) with JWT access + refresh token rotation for fully stateless session management
-- Managed schema evolution with Flyway migrations on PostgreSQL; local dev stack runs entirely via Docker Compose
-- Deployed containerized backend and frontend to AWS EC2 behind an Nginx reverse proxy; provisioned HTTPS via Let's Encrypt/Certbot
-- Automated Docker image builds and release workflow with GitHub Actions CI/CD
+### ⭐ [QuizzApp — Full-Stack OAuth2 Cloud App](https://github.com/oveshshaikh786/fullstack-oauth2-app)
+`Spring Boot 3` `React 18` `Spring Security` `PostgreSQL` `Docker` `AWS EC2` `JWT` `Flyway` `GitHub Actions`
+- OAuth2 social login (Google & GitHub) → JWT access + refresh token rotation
+- Flyway-managed PostgreSQL schema · Dockerized multi-service local stack
+- Deployed on AWS EC2 behind Nginx reverse proxy with Let's Encrypt HTTPS
+- Automated image builds & releases via GitHub Actions CI/CD
 
 ---
 
 ### 🚆 [TrackNova — Train Ticket Booking System](https://github.com/oveshshaikh786/trackNova)
-
-Backend system modelling a real-world ticket booking flow with strict layered architecture.
-
-`Java` `Spring Boot` `REST API` `Layered Architecture`
-
-- Implemented a clean Controller → Service → Repository separation with clear responsibility boundaries at each tier
-- Designed a booking workflow covering seat availability, reservation state transitions, and ticket confirmation logic
-- Structured for extensibility — adding new routes or seat classes requires no changes to existing layers
+`Java` `Spring Boot` `Layered Architecture`
+- Clean Controller → Service → Repository separation with booking workflow logic
 
 ---
 
 ### 🐯 [Zoo Management System](https://github.com/oveshshaikh786/zoo-management-system-java)
-
-Java OOP project modelling a zoo with a Swing desktop UI and a live web version — demonstrating interface design, inheritance, and serialization in practice.
-
 `Java` `Swing` `OOP` `Interfaces` `Serialization` `HTML/CSS/JS` `GitHub Pages`
-
-- Designed with an abstract `Animal` base class and `Walk`, `Swim`, `Eat` interfaces — each animal implements only the behaviors it's capable of, enforcing correct OOP boundaries
-- Identified and resolved 6 bugs across 5 source files: missing input validation, redundant interface declarations, broken `toString()` output, and a placeholder parsing bug in the Swing UI
-- Built a full Swing desktop UI: per-animal entry forms, live stat cards, a comparison table, and a timestamped activity log
-- Shipped a companion web version with dynamic per-animal themes (safari amber → ocean blue → arctic ice) that transition on tab click
-
-🌐 **[Live Demo](https://oveshshaikh786.github.io/zoo-management-system-java/)**
+- Abstract `Animal` base class + `Walk` / `Swim` / `Eat` interfaces per capability
+- Swing desktop UI + web version with dynamic per-animal themes
+- 🌐 **[Live Demo](https://oveshshaikh786.github.io/zoo-management-system-java/)**
 
 ---
 
 ### 🎓 [University Course Management](https://github.com/oveshshaikh786/university-course-management-java)
-
-Java project demonstrating clean architecture and GoF design patterns applied to a realistic domain.
-
-`Java` `Clean Architecture` `Factory Pattern` `Observer Pattern` `Singleton Pattern`
-
-- Architected a 5-layer system (Presentation → Business Logic → Service → Repository → Data) with strict separation of concerns — each layer communicates only with its immediate neighbor
-- Applied three GoF patterns with clear justification: Factory for decoupling object creation, Observer for event-driven enrollment notifications, Singleton for consistent shared service lifecycle management
-
----
-
-## 💼 Professional Experience
-
-In my current backend role, I work on systems that go beyond toy examples:
-
-- Developing and maintaining REST APIs under real usage conditions — not just greenfield features
-- Tracing failures end-to-end: from HTTP response codes back through service layers, query plans, and Docker networking
-- Handling database connectivity issues, migration conflicts, and environment-specific configuration in Docker-based setups
-- Diagnosing backend failures in staging and production before they reach users
-
-> *Codebases are private, but the patterns and problems I solve are reflected directly in my open-source projects.*
+`Java` `Clean Architecture` `Factory` `Observer` `Singleton`
+- 5-layer clean architecture · GoF patterns applied with real design intent
 
 ---
 
@@ -151,9 +101,6 @@ In my current backend role, I work on systems that go beyond toy examples:
 &nbsp;
 [![GitHub](https://img.shields.io/badge/GitHub-161B22?style=for-the-badge&logo=github&logoColor=white)](https://github.com/oveshshaikh786)
 
-<br/>
-
-**Actively looking for backend engineering roles — open to remote or hybrid.**<br/>
-*If you're building something with Java / Spring Boot, I'd love to talk.*
+**Actively looking for backend engineering roles.**
 
 </div>
