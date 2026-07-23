@@ -15,6 +15,7 @@
 ## 👋 About Me
 
 Backend engineer with **2+ years** building REST APIs with Java/Spring Boot and Python — securing them with OAuth2/JWT, and shipping to AWS via Docker and GitHub Actions CI/CD.
+
 I care about how systems behave end-to-end, not just whether the happy path works.
 
 ---
@@ -22,7 +23,6 @@ I care about how systems behave end-to-end, not just whether the happy path work
 ## ⚙️ Tech Stack
 
 ### 🧩 Backend & Languages
-
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 ![Spring Boot](https://img.shields.io/badge/SpringBoot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
 ![REST API](https://img.shields.io/badge/REST-API-blue?style=for-the-badge)
@@ -30,13 +30,11 @@ I care about how systems behave end-to-end, not just whether the happy path work
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
 ### 🗄️ Databases
-
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-00758F?style=for-the-badge&logo=mysql&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
 
 ### 🛠️ Tools & DevOps
-
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
@@ -46,7 +44,6 @@ I care about how systems behave end-to-end, not just whether the happy path work
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
 
 ### 🎯 Frontend
-
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
 
@@ -55,41 +52,38 @@ I care about how systems behave end-to-end, not just whether the happy path work
 ## 🚀 Featured Projects
 
 ### ⭐ [QuizzApp — Full-Stack OAuth2 Cloud App](https://github.com/oveshshaikh786/fullstack-oauth2-app)
-
 `Spring Boot 3` `React 18` `Spring Security` `PostgreSQL` `Docker` `AWS EC2` `JWT` `Flyway` `GitHub Actions`
 
-- OAuth2 social login (Google & GitHub) → JWT access + refresh token rotation
-- Flyway-managed PostgreSQL schema · Dockerized multi-service local stack
-- Deployed on AWS EC2 behind Nginx reverse proxy with Let's Encrypt HTTPS
-- Automated image builds & releases via GitHub Actions CI/CD
+> *"Walk me through your most production-complete project."* — This is that project.
+
+- **Auth architecture:** Chose stateless JWT over server sessions for horizontal scalability — Spring Security OAuth2 filter chain handles Google/GitHub login, issues short-lived access tokens with rotating refresh tokens
+- **Schema management:** Flyway migrations version-control every DB change — no manual SQL in production, rollbacks are code
+- **Infrastructure:** Docker Compose locally → EC2 + Nginx reverse proxy + Let's Encrypt HTTPS in production
+- **CI/CD:** GitHub Actions builds and publishes Docker images on every release — zero manual deploys
+
+---
+
+### 📋 [Job Tracker SaaS](https://github.com/oveshshaikh786/job-tracker)
+`Next.js` `TypeScript` `Prisma` `PostgreSQL` `Zustand`
+
+> *"Have you built anything with real product requirements?"* — Yes.
+
+- **Multi-tenant isolation:** Each user's data is scoped at the query layer via Prisma — no cross-user data leaks by design
+- **SLA alert system:** Applications auto-flag as overdue based on configurable follow-up windows — time-based state transitions, not just CRUD
+- **State management decision:** Chose Zustand over Redux — lighter API, no boilerplate, sufficient for this scope
+- 🌐 **[Live Demo](https://job-application-tracker-blush-one.vercel.app/)**
 
 ---
 
 ### 🚆 [TrackNova — Train Ticket Booking System](https://github.com/oveshshaikh786/trackNova)
+`Java` `Spring Boot` `MySQL` `Docker` `Layered Architecture`
 
-`Java` `Spring Boot` `PostgreSQL` `Docker` `Layered Architecture`
+> *"How do you structure a backend?"* — Here's a concrete example.
 
-- Clean Controller → Service → Repository separation with booking workflow logic
-- Concurrency-safe seat allocation and booking operations
-- Fully containerized with Docker
+- **Strict layering:** Controller never touches Repository directly — Service layer owns all business rules, enforced by package structure
+- **Booking state machine:** Reservations follow explicit transitions (AVAILABLE → RESERVED → CONFIRMED → CANCELLED) — invalid state changes are rejected at the service layer
+- Fully containerized with Docker for consistent local and prod environments
 
----
-
-### 🐯 [Zoo Management System](https://github.com/oveshshaikh786/zoo-management-system-java)
-
-`Java` `Swing` `OOP` `Interfaces` `Serialization` `HTML/CSS/JS` `GitHub Pages`
-
-- Abstract `Animal` base class + `Walk` / `Swim` / `Eat` interfaces per capability
-- Swing desktop UI + web version with dynamic per-animal themes
-- 🌐 **[Live Demo](https://oveshshaikh786.github.io/zoo-management-system-java/)**
-
----
-
-### 🎓 [University Course Management](https://github.com/oveshshaikh786/university-course-management-java)
-
-`Java` `Clean Architecture` `Factory` `Observer` `Singleton`
-
-- 5-layer clean architecture · GoF patterns applied with real design intent
 
 ---
 
