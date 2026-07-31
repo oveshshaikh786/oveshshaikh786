@@ -14,9 +14,9 @@
 
 ## 👋 About Me
 
-Backend engineer with **2+ years** building REST APIs with Java/Spring Boot and Python — securing them with OAuth2/JWT, and shipping to AWS via Docker and GitHub Actions CI/CD.
+Backend Software Engineer with hands-on experience building REST APIs and full-stack applications using Java, Spring Boot, Python, React, SQL, and PostgreSQL.
 
-I care about how systems behave end-to-end, not just whether the happy path works.
+I’m focused on strengthening my skills in backend development, authentication, relational databases, Docker, cloud deployment, and API design.
 
 ---
 
@@ -52,14 +52,16 @@ I care about how systems behave end-to-end, not just whether the happy path work
 ## 🚀 Featured Projects
 
 ### ⭐ [QuizzApp — Full-Stack OAuth2 Cloud App](https://github.com/oveshshaikh786/fullstack-oauth2-app)
-`Spring Boot 3` `React 18` `Spring Security` `PostgreSQL` `Docker` `AWS EC2` `JWT` `Flyway` `GitHub Actions`
+`Spring Boot 3` `React` `Spring Security` `PostgreSQL` `Docker` `AWS EC2` `JWT` `Flyway` `GitHub Actions`
 
 > *"Walk me through your most production-complete project."* — This is that project.
 
-- **Auth architecture:** Chose stateless JWT over server sessions for horizontal scalability — Spring Security OAuth2 filter chain handles Google/GitHub login, issues short-lived access tokens with rotating refresh tokens
-- **Schema management:** Flyway migrations version-control every DB change — no manual SQL in production, rollbacks are code
-- **Infrastructure:** Docker Compose locally → EC2 + Nginx reverse proxy + Let's Encrypt HTTPS in production
-- **CI/CD:** GitHub Actions builds and publishes Docker images on every release — zero manual deploys
+- Implemented Google and GitHub OAuth2 login using Spring Security
+- Added JWT access and refresh tokens for protected backend endpoints
+- Used PostgreSQL for application data and Flyway for versioned schema migrations
+- Containerized the application using Docker
+- Deployed the backend on AWS EC2 behind Nginx
+- Used GitHub Actions to automate build and deployment steps
 
 ---
 
@@ -68,21 +70,29 @@ I care about how systems behave end-to-end, not just whether the happy path work
 
 > *"Have you built anything with real product requirements?"* — Yes.
 
-- **Multi-tenant isolation:** Each user's data is scoped at the query layer via Prisma — no cross-user data leaks by design
-- **SLA alert system:** Applications auto-flag as overdue based on configurable follow-up windows — time-based state transitions, not just CRUD
-- **State management decision:** Chose Zustand over Redux — lighter API, no boilerplate, sufficient for this scope
+A full-stack application for managing job applications, interview stages, recruiter interactions, notes, and follow-up dates.
+- Designed PostgreSQL models using Prisma ORM
+- Implemented authenticated CRUD operations for application records
+- Scoped application records to the authenticated user
+- Built a Kanban-style workflow for moving applications between stages
+- Used Zustand for lightweight client-side state management
+- Added follow-up date tracking for job applications
 - 🌐 **[Live Demo](https://job-application-tracker-blush-one.vercel.app/)**
 
 ---
 
 ### 🚆 [TrackNova — Train Ticket Booking System](https://github.com/oveshshaikh786/trackNova)
-`Java` `Spring Boot` `MySQL` `Docker` `Layered Architecture`
+`Java` `Spring Boot` `PostgreSQL` `Docker`
 
 > *"How do you structure a backend?"* — Here's a concrete example.
 
-- **Strict layering:** Controller never touches Repository directly — Service layer owns all business rules, enforced by package structure
-- **Booking state machine:** Reservations follow explicit transitions (AVAILABLE → RESERVED → CONFIRMED → CANCELLED) — invalid state changes are rejected at the service layer
-- Fully containerized with Docker for consistent local and prod environments
+A train ticket booking application built to practice layered Spring Boot architecture, relational data modeling, booking workflows, and containerization.
+- Structured the backend using Controller, Service, and Repository layers
+- Implemented train search, booking, seat selection, and cancellation workflows
+- Added validation to reduce duplicate or invalid seat bookings
+- Used database transactions for booking-related updates
+- Containerized the backend using Docker
+- Added a rule-based train delay risk feature
 
 
 ---
