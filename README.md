@@ -62,7 +62,7 @@ I’m focused on strengthening my skills in backend development, authentication,
 
 ---
 
-### 📋 [Job Tracker SaaS](https://github.com/oveshshaikh786/job-tracker)
+### 📋 [Job Tracker SaaS](https://github.com/oveshshaikh786/job-application-tracker)
 `Next.js` `TypeScript` `Prisma` `PostgreSQL` `Zustand`
 
 > *"Have you built anything with real product requirements?"* — Yes.
@@ -74,7 +74,7 @@ A full-stack application for managing job applications, interview stages, recrui
 - Built a Kanban-style workflow for moving applications between stages
 - Used Zustand for lightweight client-side state management
 - Added follow-up date tracking for job applications
-- 🌐 **[Live Demo](https://job-application-tracker-blush-one.vercel.app/)**
+- 🌐 **[Live Demo](https://job-application-tracker-version-one.vercel.app/sign-in)**
 
 ---
 
